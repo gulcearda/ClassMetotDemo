@@ -40,18 +40,28 @@ namespace ClassMetotDemo
 
 
 
+            MusteriManager musteriEkle = new MusteriManager();
+            musteriEkle.Ekle(musteri1);
+            musteriEkle.Ekle(musteri2);
+            musteriEkle.Ekle(musteri3);
+            musteriEkle.Ekle(musteri4);
+            musteriEkle.Ekle(musteri5);
 
-            Console.WriteLine("--------MetotlarDemo--------");
+            MusteriManager musteriListe = new MusteriManager();
+            musteriListe.Listeleme(musteri1);
+            musteriListe.Listeleme(musteri2);
+            musteriListe.Listeleme(musteri3);
+            musteriListe.Listeleme(musteri4);
+            musteriListe.Listeleme(musteri5);
 
-            MusteriManager musterimanager = new MusteriManager();
-            musterimanager.Ekle(musteri1);
-            musterimanager.Ekle(musteri2);
-            musterimanager.Ekle(musteri3);
-            musterimanager.Ekle(musteri4);
-            musterimanager.Ekle(musteri5);
+            MusteriManager musteriSilme = new MusteriManager();
+            musteriSilme.Silme(musteri1);
+            musteriSilme.Silme(musteri2);
+            musteriSilme.Silme(musteri3);
+            musteriSilme.Silme(musteri4);
+            musteriSilme.Silme(musteri5);
 
-
-            Console.WriteLine("Hello World!");
+           
 
         }
     }

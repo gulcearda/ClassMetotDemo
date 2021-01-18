@@ -10,7 +10,7 @@ namespace ClassMetotDemo
 
         public void Listeleme(Musteri musteri)
         {
-            Console.WriteLine(musteri.Id + " " + musteri.Adi + " " + musteri.Soyadi + " " + musteri.HesapSayisi);
+            Console.WriteLine("Id: " + musteri.Id + " Adı: " + musteri.Adi + " Soyadı: " + musteri.Soyadi + " Hesap Sayısı: " + musteri.HesapSayisi);
         }
 
         public void Silme(Musteri musteri)
